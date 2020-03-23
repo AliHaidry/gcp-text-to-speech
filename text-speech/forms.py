@@ -11,7 +11,7 @@ class TextToSpeechForm(FlaskForm):
     """
 
     # set gcloud environment credentials
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/SyedAli/Desktop/Office/gcp-project/containerize-webapp-4f12b2a3ba23.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'containerize-webapp-4f12b2a3ba23.json'
 
     # Instantiates a client
     client = texttospeech.TextToSpeechClient()

@@ -9,7 +9,7 @@ from flask import Flask, request, render_template, flash, redirect, send_file, u
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
 app.config['SECRET_KEY'] = 'ali-haidry'
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/SyedAli/Desktop/Office/gcp-project/containerize-webapp-4f12b2a3ba23.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'containerize-webapp-4f12b2a3ba23.json'
 
 
 @app.route('/', methods=['GET', 'POST'])
