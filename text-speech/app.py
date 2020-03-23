@@ -8,7 +8,7 @@ from flask import Flask, request, render_template, flash, redirect, send_file, u
 # Use app for GCP
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
-app.config['SECRET_KEY'] = 'bendeghe-ekiem'
+app.config['SECRET_KEY'] = 'ali-haidry'
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'containerize-webapp-d05915157022.json'
 
 
